@@ -1,0 +1,51 @@
+{
+	"/": [
+		"src/routes/+layout.ts",
+		"src/routes/+layout.ts"
+	],
+	"/api/orders": [
+		"src/routes/api/orders/+server.ts"
+	],
+	"/api/orders/[id]": [
+		"src/routes/api/orders/[id]/+server.ts"
+	],
+	"/api/otp/send": [
+		"src/routes/api/otp/send/+server.ts"
+	],
+	"/api/otp/verify": [
+		"src/routes/api/otp/verify/+server.ts"
+	],
+	"/api/payment/create": [
+		"src/routes/api/payment/create/+server.ts"
+	],
+	"/api/products": [
+		"src/routes/api/products/+server.ts"
+	],
+	"/api/products/[slug]": [
+		"src/routes/api/products/[slug]/+server.ts"
+	],
+	"/cart": [
+		"src/routes/+layout.ts"
+	],
+	"/checkout": [
+		"src/routes/+layout.ts"
+	],
+	"/orders": [
+		"src/routes/+layout.ts"
+	],
+	"/order/[id]": [
+		"src/routes/+layout.ts"
+	],
+	"/otp/[email]": [
+		"src/routes/+layout.ts"
+	],
+	"/products": [
+		"src/routes/+layout.ts"
+	],
+	"/product/[slug]": [
+		"src/routes/+layout.ts"
+	],
+	"/success/[id]": [
+		"src/routes/+layout.ts"
+	]
+}
