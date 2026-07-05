@@ -84,6 +84,7 @@ declare module '$env/static/private' {
 	export const npm_lifecycle_script: string;
 	export const npm_config_node_gyp: string;
 	export const NODE_ENV: string;
+	export const SVELTEKIT_FORK: string;
 }
 
 /**
@@ -217,6 +218,7 @@ declare module '$env/dynamic/private' {
 		npm_lifecycle_script: string;
 		npm_config_node_gyp: string;
 		NODE_ENV: string;
+		SVELTEKIT_FORK: string;
 		[key: `PUBLIC_${string}`]: undefined;
 		[key: `${string}`]: string | undefined;
 	}
